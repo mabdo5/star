@@ -10,6 +10,8 @@ class myapp extends StatefulWidget {
 class _myappState extends State<myapp> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(),
+    );
   }
 }
